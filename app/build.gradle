@@ -45,6 +45,7 @@ android {
             signingConfig signingConfigs.release
         }
     }
+    namespace 'com.zfdang.touchhelper'
 
     // http://www.sollyu.com/android-apk-studio-generated-automatically-appends-a-version-number/
     android.applicationVariants.all { variant ->

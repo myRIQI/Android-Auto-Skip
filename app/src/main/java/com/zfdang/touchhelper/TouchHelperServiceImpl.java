@@ -423,7 +423,7 @@ public class TouchHelperServiceImpl {
                     if(!clickedWidgets.contains(nodeDesc)){
                         clickedWidgets.add(nodeDesc);
 
-                        ShowToastInIntentService("正在根据关键字跳过广告...");
+                        ShowToastInIntentService("已自动跳过广告");
                         boolean clicked = node.performAction(AccessibilityNodeInfo.ACTION_CLICK);
 //                        Log.d(TAG, "self clicked = " + clicked);
                         if (!clicked) {
